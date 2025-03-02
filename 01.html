@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>File Manager</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Icon</th>
+                <th>Name</th>
+                <th>Last Modified</th>
+                <th>Size</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="back.gif" alt="Back" class="icon"></td>
+                <td><a href="index.html">..</a></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><img src="fileicon.png" alt="File" class="icon"></td>
+                <td><a href="#">Wallpaper</a></td>
+                <td>2025-02-18 21:46</td>
+                <td>-</td>
+                <td>Picture of a cheep</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
